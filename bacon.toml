@@ -1,0 +1,27 @@
+# This is a configuration file for the bacon tool
+# More info at https://github.com/Canop/bacon
+
+default_job = "test"
+
+[jobs]
+
+[jobs.test]
+command = ["cargo", "test", "--color", "always", "day01"]
+need_stdout = true
+watch = ["example_inputs"]
+
+[jobs.run]
+command = [
+    "cargo",
+    "run",
+    "--profile",
+    "develop",
+    "--color",
+    "always",
+    "--",
+    "run",
+    "1",
+]
+need_stdout = true
+allow_warnings = true
+watch = ["inputs"]

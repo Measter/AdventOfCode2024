@@ -1,0 +1,18 @@
+[package]
+name = "advent_of_code_2024"
+version = "0.1.0"
+edition = "2024"
+
+[profile.develop]
+inherits = "release"
+overflow-checks = true
+incremental = true
+
+[profile.release]
+debug = true
+
+[dependencies]
+# aoc_lib = { git = "https://github.com/Measter/aoc_lib" }
+aoc_lib = { path = "../aoc_lib" }
+color-eyre = "0.6.3"
+itertools = "0.13.0"
