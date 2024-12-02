@@ -1,4 +1,4 @@
-#![feature(let_chains)]
+#![feature(let_chains, array_windows)]
 
 use aoc_lib::TracingAlloc;
 use color_eyre::Result;
