@@ -16,3 +16,4 @@ debug = true
 aoc_lib = { path = "../aoc_lib" }
 color-eyre = "0.6.3"
 itertools = "0.13.0"
+logos = "0.14.3"
