@@ -1,8 +1,5 @@
 use aoc_lib::{Bench, BenchResult, Day, NoError, ParseResult, UserError};
-use color_eyre::{
-    Report, Result,
-    eyre::{OptionExt, eyre},
-};
+use color_eyre::{Report, Result, eyre::OptionExt};
 use smallvec::SmallVec;
 
 pub const DAY: Day = Day {
