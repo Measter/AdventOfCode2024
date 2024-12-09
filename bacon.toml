@@ -6,7 +6,7 @@ default_job = "test"
 [jobs]
 
 [jobs.test]
-command = ["cargo", "test", "--color", "always", "day08"]
+command = ["cargo", "test", "--color", "always", "day09"]
 need_stdout = true
 watch = ["example_inputs"]
 
@@ -20,7 +20,7 @@ command = [
     "always",
     "--",
     "run",
-    "8",
+    "9",
 ]
 need_stdout = true
 allow_warnings = true
