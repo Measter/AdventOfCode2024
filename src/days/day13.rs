@@ -58,7 +58,7 @@ struct Cost {
 
 impl Cost {
     fn get_cost(self) -> u16 {
-        self.a_count as u16 * 3 + self.b_count as u16 * 1
+        self.a_count as u16 * 3 + self.b_count as u16
     }
 }
 
